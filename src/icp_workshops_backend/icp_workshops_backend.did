@@ -1,4 +1,5 @@
 service : {
     "greet": (text) -> (text) query;
     "calculate": (a: int32, b: int32, operator: text) -> (text) query;
+    "translate": (text) -> (text);
 }
